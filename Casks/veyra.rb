@@ -1,6 +1,6 @@
 cask "veyra" do
   version "0.1.0"
-  sha256 "c38678b134001a2baec92636371d6eaac61a92b500e7415c16a899d956f4eae6"
+  sha256 "b56564d45d26eb0dc2928ef935cb0bbd3e723dea5a63e87a80308a71dc5e2b11"
 
   url "https://github.com/celiloz/veyra/releases/download/v#{version}/Veyra-#{version}-universal.zip"
   name "Veyra"
