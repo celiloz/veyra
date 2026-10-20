@@ -8,18 +8,18 @@ A native SwiftUI dashboard for macOS 14 and later, with an immersive music playe
 
 Clock, calendar, live weather, and music controls in one view.
 
-![Veyra dashboard with Istanbul sample weather](docs/screenshots/dashboard.png)
+![Veyra dashboard with Istanbul sample weather](docs/screenshots/dashboard.jpg)
 
 ### Music
 
 Album artwork, adaptive backgrounds, and playback controls.
 
-![Veyra immersive music player](docs/screenshots/music.png)
+![Veyra immersive music player](docs/screenshots/music.jpg)
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/screenshots/map.png" alt="Veyra embedded Apple map showing Paris"></td>
-    <td width="50%"><img src="docs/screenshots/focus.png" alt="Veyra focus timer"></td>
+    <td width="50%"><img src="docs/screenshots/map.jpg" alt="Veyra embedded Apple map showing Paris"></td>
+    <td width="50%"><img src="docs/screenshots/focus.jpg" alt="Veyra focus timer"></td>
   </tr>
   <tr>
     <td align="center"><strong>Maps</strong> — in-app place search and route previews</td>
