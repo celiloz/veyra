@@ -50,7 +50,15 @@ brew tap celiloz/veyra https://github.com/celiloz/veyra.git
 brew install --cask celiloz/veyra/veyra
 ```
 
-The cask requires the matching ZIP asset under GitHub Releases. Releases marked **development / ad-hoc** are not Developer ID signed or notarized; Gatekeeper may require manual approval. No quarantine or system security settings are disabled by the cask.
+The current **v0.1.0 preview** is Developer ID signed and available under GitHub Releases. **Apple notarization is pending**, so Gatekeeper may require manual approval when opening the app. No quarantine or system security settings are disabled by the cask.
+
+If your Homebrew configuration explicitly requires tap trust, trust only this cask:
+
+```sh
+brew trust --cask celiloz/veyra/veyra
+```
+
+Then retry the install command above.
 
 ## Build from source
 
