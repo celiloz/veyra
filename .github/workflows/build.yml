@@ -1,0 +1,23 @@
+name: Build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate scripts
+        run: |
+          bash -n scripts/package.sh
+          python3 -m py_compile scripts/update-cask.py
+      - name: Build universal development package
+        run: ./scripts/package.sh 0.1.0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Veyra-development-universal
+          path: dist/*.zip*
