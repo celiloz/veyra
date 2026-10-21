@@ -50,7 +50,9 @@ brew tap celiloz/veyra https://github.com/celiloz/veyra.git
 brew install --cask celiloz/veyra/veyra
 ```
 
-The current **v0.1.0 preview** is Developer ID signed and available under GitHub Releases. **Apple notarization is pending**, so Gatekeeper may require manual approval when opening the app. No quarantine or system security settings are disabled by the cask.
+The current **[v0.1.4 release](https://github.com/celiloz/veyra/releases/tag/v0.1.4)** is for **Apple Silicon Macs (M1 and later), macOS 14+**. It is Developer ID signed and **notarized by Apple**, with the notarization ticket attached for offline verification. The packaged application passed Gatekeeper verification (`accepted`, `Notarized Developer ID`). No quarantine or system security settings are disabled by the cask.
+
+v0.1.4 is a distribution package revision of the same signed application; the app bundle retains version 0.1.0 (build 1). Existing Homebrew users can run `brew update` followed by `brew upgrade --cask celiloz/veyra/veyra`.
 
 If your Homebrew configuration explicitly requires tap trust, trust only this cask:
 
